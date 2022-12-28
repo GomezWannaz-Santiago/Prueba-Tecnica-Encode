@@ -1,0 +1,18 @@
+#main{
+    background-color: #003049;    
+}
+
+.navbar-link {
+    color:white;
+}
+
+.navbar-link:hover{
+    background-color: #FCBF49;    
+    color:black;
+}
+
+.nav-item:hover {
+    background-color: #FCBF49;    
+    color:black;
+
+}

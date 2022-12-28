@@ -1,0 +1,21 @@
+.container {    
+    /* Setup */
+    position: relative;
+  }
+  
+  .child {    
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button {
+    background-color: #003049; color:white;
+}
+
+  .button:hover {
+    background-color: #FCBF49;    
+    color:black;
+  }

@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Fecha de Actividad</th>
+        <th scope="col">Nombre Completo </th>
+        <th scope="col">Detalle de Actividad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let activity of activities; index as i">
+        <th scope="row">{{i + 1}}</th>            
+        <td>{{activity.fechaFormateada}}</td>
+        <td>{{activity.nombre}}</td>
+        <td>{{activity.observacion}}</td>
+      </tr>      
+    </tbody>
+  </table>
